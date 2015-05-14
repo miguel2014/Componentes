@@ -38,6 +38,8 @@ public class JTreeArbolGenealogico {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		PersonaHijosde arbol=creaarbol();
+		arbol.pintaArbol();
 	}
 	private PersonaHijosde creaarbol(){
 		PersonaHijosde raiz=new PersonaHijosde("Juan", "Mata", "Latas");
