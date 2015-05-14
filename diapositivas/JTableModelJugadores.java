@@ -34,6 +34,7 @@ public class JTableModelJugadores extends AbstractTableModel{
 		if (columnIndex == 0) return j.getNombre();
 		else if (columnIndex == 1) return j.getEquipo();
 		else return "";
+		
 	}
 
 }
