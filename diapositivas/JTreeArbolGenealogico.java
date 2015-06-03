@@ -39,7 +39,7 @@ public class JTreeArbolGenealogico {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		PersonaHijosde arbol=creaarbol();
-		arbol.pintaArbol();
+		JTree arbole=new JTree(new ))
 	}
 	private PersonaHijosde creaarbol(){
 		PersonaHijosde raiz=new PersonaHijosde("Juan", "Mata", "Latas");
